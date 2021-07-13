@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>HTML5 and CSS3</title>
+</head>
+<body>
+    <header>
+        <div id="logo" onclick="slowScroll('#top')">
+            <span>DeadInSide</span>
+        </div>
+        <div id="about">
+            <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+            <a href="#" title="Преимущества" onclick="slowScroll('#overview')">Преимущества</a>
+            <a href="#" title="Контакты" onclick="slowScroll('#contacts')">Контакты</a>
+            <a href="#" title="Ответы на вопросы" onclick="slowScroll('#faq')">FAQ</a>
+        </div>
+    </header>
+
+    <div id="top">
+        <h1>Программирование</h1>
+        <h3>как способ жизни!</h3>
+    </div>
+
+    <div id="main">
+        <div id="intro">
+            <h2>Наши услуги помогут вам!</h2>
+            <span>Большой выбор всего, что вам пригодиться</span>
+        </div>
+        <div id="text">
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Quasi, quas laudantium quod cumque eum temporibus officiis perspiciatis 
+            reprehenderit dolorem veritatis repudiandae dolores nam in modi consequuntur 
+            quidem rem alias vel natus laborum autem eius? Veritatis quis voluptatibus laudantium ut 
+            vero amet voluptatem officia, iusto debitis consectetur ab soluta magnam nihil?</span>
+        </div>
+    </div>
+
+    <div id="overview">
+        <h2>Преимущества</h2>
+        <h4>С нами все проще</h4>
+
+        <div class="img">
+            <img src="img/html-css.png" alt="html и css уроки" width="300" height="190">
+            <span>Изучение верстки (HTML + CSS)</span>
+        </div>
+        <div class="img">
+            <img src="img/js-photo.jpg" alt="уроки по javascript" width="300" height="190">
+            <span>Уроки по JavaScript</span>
+        </div>
+        <div class="img">
+            <img src="img/adobe_photoshop.png" alt="PhotoShop с нуля до Pro" width="300" height="190">
+            <span>Обучение PhotoShop</span>
+        </div>
+        <div class="img">
+            <img src="img/all-photo.jpg" alt="все для тебя" width="300" height="190">
+            <span>Прочий материал для Web (Fron-end) разработчика</span>
+        </div>
+    </div>
+
+    <div id="contacts">
+        <center><h5>Обратная связь</h5></center>
+        <form id="form_input">
+            <label for="name">Имя <span>*</span></label><br>
+            <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+            <label for="email">Ваша почта <span>*</span></label><br>
+            <input type="email" placeholder="Введите почту" name="email" id="email"><br>
+            <label for="message">Сообщение <span>*</span></label><br>
+            <textarea placeholder="Введите сообщение" name="message" id="message" cols="30" rows="10"></textarea><br>
+            <div id="mess_send" class="btn">Отправить</div>
+        </form>
+    </div>
+
+    <div id="faq">
+        <div>
+            <span class="title">Оплата</span>
+            <span class="heading">Как будет проходить оплата?</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vitae accusantium necessitatibus error quos ipsum id laboriosam ab animi. 
+                Possimus, facilis corrupti velit esse sunt facere at eius aspernatur vitae debitis!</p>
+            <span class="heading">Как будет проходить оплата?</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vitae accusantium necessitatibus error quos ipsum id laboriosam ab animi. 
+                Possimus, facilis corrupti velit esse sunt facere at eius aspernatur vitae debitis!</p>
+            <span class="heading">Как будет проходить оплата?</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vitae accusantium necessitatibus error quos ipsum id laboriosam ab animi. 
+                Possimus, facilis corrupti velit esse sunt facere at eius aspernatur vitae debitis!</p>
+        </div>
+        <div>
+            <span class="title">Информация</span>
+            <span class="heading">Что входит в услуги?</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vitae accusantium necessitatibus error quos ipsum id laboriosam ab animi. 
+                Possimus, facilis corrupti velit esse sunt facere at eius aspernatur vitae debitis!</p>
+            <span class="heading">Что входит в услуги?</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vitae accusantium necessitatibus error quos ipsum id laboriosam ab animi. 
+                Possimus, facilis corrupti velit esse sunt facere at eius aspernatur vitae debitis!</p>
+            <span class="heading">Что входит в услуги?</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vitae accusantium necessitatibus error quos ipsum id laboriosam ab animi. 
+                Possimus, facilis corrupti velit esse sunt facere at eius aspernatur vitae debitis!</p>
+        </div>
+        <div>
+            <span class="title">Гарантии</span>
+            <span class="heading">Какие гарантии у меня есть?</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vitae accusantium necessitatibus error quos ipsum id laboriosam ab animi. 
+                Possimus, facilis corrupti velit esse sunt facere at eius aspernatur vitae debitis!</p>
+            <span class="heading">Какие гарантии у меня есть?</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vitae accusantium necessitatibus error quos ipsum id laboriosam ab animi. 
+                Possimus, facilis corrupti velit esse sunt facere at eius aspernatur vitae debitis!</p>
+            <span class="heading">Какие гарантии у меня есть?</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vitae accusantium necessitatibus error quos ipsum id laboriosam ab animi. 
+                Possimus, facilis corrupti velit esse sunt facere at eius aspernatur vitae debitis!</p>
+        </div>
+    </div>
+
+    <footer>
+        <div id="logo" onclick="slowScroll('#top')">
+            <span>DeadInSide</span>
+        </div>
+        <div id="about">
+            <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+            <a href="#" title="Преимущества" onclick="slowScroll('#overview')">Преимущества</a>
+            <a href="#" title="Контакты" onclick="slowScroll('#contacts')">Контакты</a>
+            <a href="#" title="Ответы на вопросы" onclick="slowScroll('#faq')">FAQ</a>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        function slowScroll(id) {
+            $('html, body').animate({
+                scrollTop: $(id).offset().top
+            }, 500);
+        }
+
+        $(document).on("scroll", function () {
+            if ($(window).scrollTop() === 0) {
+                $("header").removeClass("fixed");
+            } else {
+                $("header").attr("class", "fixed");
+            }
+        });
+    </script>
+</body>
+</html>
